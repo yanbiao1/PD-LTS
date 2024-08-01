@@ -29,22 +29,7 @@ Other require libraries:
 - [torch-cluster](https://github.com/rusty1s/pytorch_cluster) (for denoising)
 - [pytorch3d](https://github.com/facebookresearch/pytorch3d) (for denoising)
 - [kaolin](https://github.com/NVIDIAGameWorks/kaolin) (for training)
-
-### Docker configuration
-
-If you are familiar with Docker, you can use provided [Dockerfile](docker/Dockerfile) to configure all setting automatically.
-
-### Additional configuration
-
-If you want to train the network, you also need to build the kernel of PytorchEMD like followings:
-
-```bash
-cd metric/PytorchEMD/
-python setup.py install --user
-#cp build/lib.linux-x86_64-3.8/emd_cuda.cpython-38m-x86_64-linux-gnu.so .
-cp build/lib.linux-x86_64-3.8/emd.cpython-38-x86_64-linux-gnu.so .
-```
-
+  
 ## Datasets
 
 All training and evaluation data can be downloaded from repo of [score-denoise](https://github.com/luost26/score-denoise) and [DMRDenoise](https://github.com/luost26/DMRDenoise/).
