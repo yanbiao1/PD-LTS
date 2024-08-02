@@ -20,7 +20,7 @@ git clone --recursive https://github.com/yanbiao1/PD-LTS
 
 Here is a visualization of P2M results on the 2% noise scale with synthetic Gaussian noise.
 
-![](D:\GoogleDownloads\CVPR\camera_ready\定性比较1_01.png)
+![Qualitative_results](Qualitative_results.png)
 
 ### Manual configuration
 
