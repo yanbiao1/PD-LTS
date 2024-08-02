@@ -16,7 +16,11 @@ First clone the code of this repo:
 git clone --recursive https://github.com/yanbiao1/PD-LTS
 ```
 
-Then other settings can be configured manually.
+## Results
+
+Here is a visualization of P2M results on the 2% noise scale with synthetic Gaussian noise.
+
+![](D:\GoogleDownloads\CVPR\camera_ready\定性比较1_01.png)
 
 ### Manual configuration
 
